@@ -1,0 +1,20 @@
+{
+  "name": "new-website",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"  
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabelringing1/new-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabelringing1/new-website/issues"
+  },
+  "homepage": "https://github.com/isabelringing1/new-website#readme"
+}
