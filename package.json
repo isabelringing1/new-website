@@ -4,17 +4,21 @@
   "description": "Personal Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "node index.js"  
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isabelringing1/new-website.git"
   },
-  "author": "",
+  "author": "Isabel Lee",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/isabelringing1/new-website/issues"
   },
-  "homepage": "https://github.com/isabelringing1/new-website#readme"
+  "homepage": "https://github.com/isabelringing1/new-website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustache": "^4.2.0"
+  }
 }

@@ -1,0 +1,40 @@
+{
+    "projects": [
+    {
+        "index": 0,
+        "title": "55 Plaque",
+        "tags": ["writing"],
+        "card-description": "Science fiction short story published in the March 2021 issue of Clarkesworld.",
+        "description": "A short story out in Clarkesworld March 2021.",
+        "image": "images/55_Plaque.jpg",
+        "image_alt": "55 Plaque cover"
+
+    }, 
+    {
+        "index": 1,
+        "title": "Certainty",
+        "tags": ["writing"],
+        "card-description": "Science fiction short story published in the September 2020 issue of Clarkesworld.",
+        "description": "A short story out in Clarkesworld September 2020. <br> <a> link? </a>",
+        "image": "images/Certainty.jpg",
+        "image_alt": "Certainty cover"
+    },
+    {
+        "index": 2,
+        "title": "AIIM",
+        "tags": ["writing", "tech"],
+        "card-description": "Experimental interactive long-form fiction about robots, group chats, and the end of the world",
+        "description": "A short story out in Clarkesworld September 2020. <br> <a> link? </a>",
+        "image": "images/aiim.png",
+        "image_alt": "AIIM screenshot"
+    },
+    {
+        "index": 3,
+        "title": "Moiré",
+        "tags": ["art", "tech"],
+        "description": "A short story out in Clarkesworld September 2020. <br> <a> link? </a>",
+        "image": "images/moire.jpeg",
+        "image_alt": "Moire image"
+    }
+    ]
+}

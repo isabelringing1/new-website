@@ -1,0 +1,117 @@
+:root {
+    --background: #FFF3E1;
+    --primary: #4F38DF;
+    --secondary: #DAAAF6;
+    --gray: #979797;
+  }
+
+html, body {
+    margin:0;
+    width:100%;
+    height: fit-content;
+    background-color: var(--background);
+    font-family: "Yaldevi";
+    font-weight: 300;
+}
+
+a{
+    transition: color 0.25s;
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+#header{
+    font-size:48px;
+    margin: 40px 0px 0px 70px;
+    color: var(--primary)
+}
+
+#cards{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 400px;
+    height: 525px;
+    background-color: white;
+    transition: opacity 1s;
+}
+
+.card-description{
+    margin: 15px;
+}
+
+.card-title{
+    margin: 15px;
+}
+
+.card-image{
+    width: 370px;
+    height: 339px;
+    object-fit: cover;
+    margin: 15px;
+}
+
+.bar{
+    width: 40%;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+#project{
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    text-shadow: -4px 4px var(--secondary);
+    margin-bottom: 10px;
+    font-family: "Sen";
+}
+
+#project-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#description {
+    padding: 0 0 0 0px;
+    font-size: 36px;
+}
+
+#description a{
+    color: var(--primary);
+}
+
+#description a:hover{
+    color: var(--secondary);
+}
+
+#image{
+    width: 25%;
+    opacity: 0;
+    transition: opacity 1s;
+    filter: drop-shadow(25px 25px var(--secondary))
+}
+
+#back-button{
+    font-family: "Bitter";
+    color: var(--gray);
+    font-size: 36;
+    margin: 0 0 0 70px;
+}
+
+#back-button a:hover{
+    text-decoration: underline;
+    color: var(--gray);
+}
