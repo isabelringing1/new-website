@@ -15,6 +15,7 @@ html, body {
 }
 
 a{
+    text-decoration: none;
     transition: color 0.25s;
 }
 
@@ -23,36 +24,55 @@ a:hover {
 }
 
 #header{
+    font-family: "Sen";
     font-size:48px;
     margin: 40px 0px 0px 70px;
-    color: var(--primary)
+}
+
+#header a:visited {
+    color: var(--primary);
 }
 
 #cards{
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+}
+
+.card-container{
+   background-color: red;
+   position: absolute;
+   margin: 30px 0 0 30px;
+   transition: margin-left 0.5s ease-in-out, margin-top 0.5s ease-in-out, opacity 0.25s;
 }
 
 .card{
     width: 400px;
     height: 525px;
     background-color: white;
-    transition: opacity 1s;
+    color: black;
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0px 0px var(--secondary);
+}
+
+.card:hover {
+    box-shadow: 8px 8px var(--secondary);
 }
 
 .card-description{
-    margin: 15px;
+    margin: 0 15px 15px 15px;
+    font-size: 17px;
 }
 
 .card-title{
-    margin: 15px;
+    margin: 15px 15px 7px 15px;
+    font-size: 28px;
+    font-family: "Sen";
 }
 
 .card-image{
     width: 370px;
-    height: 339px;
+    height: 370px;
     object-fit: cover;
-    margin: 15px;
+    margin: 15px 15px 0 15px;
 }
 
 .bar{
@@ -113,5 +133,9 @@ a:hover {
 
 #back-button a:hover{
     text-decoration: underline;
+    color: var(--gray);
+}
+
+#back-button a:visited{
     color: var(--gray);
 }
