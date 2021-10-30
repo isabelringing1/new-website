@@ -1,10 +1,35 @@
+
+<div id="intro" ondragover="event.preventDefault()">
+    Hi, I'm Isabel! 
+    <div id="intro-text">
+    I'm a<span id="n">n</span> <b><span class="drag-word" id="word-first" draggable="true" ondragover="event.preventDefault()">writer</span></b> 
+    who <span class="drag-word" id="word-second" draggable="true" ondragover="event.preventDefault()">codes</span>
+     and <span class="drag-word" id="word-third" draggable="true" ondragover="event.preventDefault()">draws</span>. 
+     </div>
+    <a id="about" href="#about">
+        more about me >>
+    </a>
+</div>
+
+<div id="categories">
+    <a class="category selected" id="all">all</a>&emsp;
+    <a class="category" id="code">code</a>&emsp;
+    <a class="category" id="writing">writing</a>&emsp;
+    <a class="category" id="art">art</a>&emsp;
+</div>
+
 {{#projects}}
     <div class="card-container" id={{index}} onload="fadeIn(this)">
         <a href={{hash}}>
             <div class="card"> 
-                <img src={{image}} alt={{image_alt}} class="card-image">
+                <img src={{images.0}} alt={{image_alt}} class="card-image">
                 <div class="card-title"> {{title}} </div>
                 <div class="card-description"> {{card-description}} </div>
+                <div class="tags"> 
+                    {{#tags}}
+                    <span class="tag"> &#123;{{.}}&#125; </span>&emsp;
+                    {{/tags}}
+                </div>
             </div>
         </a>
     </div>

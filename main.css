@@ -3,10 +3,49 @@
     --primary: #4F38DF;
     --secondary: #DAAAF6;
     --gray: #979797;
+    --darkgray: #6F6F6F;
+    --art: #f530a5;
+    --code: #6098ef;
+    --writing: #5fdb75;
   }
 
+/* mobile */
+@media only screen and (max-width: 630px) {
+    :root {
+        --margin-left: 50px;
+    }
+
+    .card{
+        width: 90%;
+        height: 520px;
+    }
+
+    .card-image{
+        width: 90%;
+        height: 300px;
+    }
+}
+
+/* tablet/desktop */
+@media only screen and (min-width: 631px) {
+    :root {
+        --margin-left: 70px;
+    }
+
+    .card{
+        width: 400px;
+        height: 550px;
+    }
+
+    .card-image{
+        width: 370px;
+        height: 370px;
+    }
+}
+
+
 html, body {
-    margin:0;
+    margin: 0;
     width:100%;
     height: fit-content;
     background-color: var(--background);
@@ -26,39 +65,72 @@ a:hover {
 #header{
     font-family: "Sen";
     font-size:48px;
-    margin: 40px 0px 0px 70px;
+    margin: 40px 0px 0px var(--margin-left);
 }
 
 #header a:visited {
     color: var(--primary);
 }
 
-#cards{
+#intro{
+    margin: 20px 0px 70px var(--margin-left);
+    font-family: "Yaldevi";
+    font-size: 50px;
+}
 
+#intro-text {
+    width: 80%;
+}
+
+.drag-word{
+    transition: transform 1s ease-in-out;
+    color: var(--gray);
+}
+
+.drag-word:hover{
+    color: var(--darkgray);
+}
+
+#n{
+    display: none;
+}
+
+#about{
+    color: var(--gray);
+    font-family: "Bitter";
+    font-size: 36px;
+}
+
+#about:hover{
+    text-decoration: underline;
+}
+
+#cards{
+    margin-bottom: 10%;
 }
 
 .card-container{
-   background-color: red;
+   padding-bottom: 50px;
    position: absolute;
-   margin: 30px 0 0 30px;
+   margin: 30px 0 30px 30px;
    transition: margin-left 0.5s ease-in-out, margin-top 0.5s ease-in-out, opacity 0.25s;
 }
 
 .card{
-    width: 400px;
-    height: 525px;
     background-color: white;
     color: black;
     transition: box-shadow 0.2s ease-in-out;
-    box-shadow: 0px 0px var(--secondary);
+    box-shadow: 4px 4px var(--secondary);
+    border-style: solid;
+    border-width: 2px;
 }
 
 .card:hover {
-    box-shadow: 8px 8px var(--secondary);
+    box-shadow: 10px 10px var(--secondary);
 }
 
 .card-description{
-    margin: 0 15px 15px 15px;
+    margin: 0 15px 10px 15px;
     font-size: 17px;
 }
 
@@ -69,10 +141,37 @@ a:hover {
 }
 
 .card-image{
-    width: 370px;
-    height: 370px;
     object-fit: cover;
     margin: 15px 15px 0 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.tags{
+    margin: 0 15px 15px 15px;
+    font-family: "Bitter";
+    font-size: 18px;
+}
+
+.tag{
+    color: var(--gray);
+}
+
+#categories{
+    font-family: "Bitter";
+    font-size: 24px;
+    flex-direction: row;
+    margin: 0 70px 0 var(--margin-left);
+    color: var(--gray);
+}
+
+.selected{
+    color: var(--darkgray);
+    text-decoration: underline;
+}
+
+.category:hover{
+    color: var(--darkgray);
 }
 
 .bar{
@@ -102,11 +201,22 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.project-image-link{
+    width: 25%;
+}
+
+.project-image-link-large{
+    width: 35%;
 }
 
 #description {
     padding: 0 0 0 0px;
-    font-size: 36px;
+    font-size: 30px;
+    width: 50%;
+    line-height: 1.5;
 }
 
 #description a{
@@ -117,18 +227,21 @@ a:hover {
     color: var(--secondary);
 }
 
-#image{
-    width: 25%;
+.image{
+    width: 100%;
     opacity: 0;
     transition: opacity 1s;
-    filter: drop-shadow(25px 25px var(--secondary))
+    filter: drop-shadow(25px 25px var(--secondary));
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 80px;
 }
 
 #back-button{
     font-family: "Bitter";
     color: var(--gray);
     font-size: 36;
-    margin: 0 0 0 70px;
+    margin: 0 0 0 var(--margin-left);
 }
 
 #back-button a:hover{
@@ -138,4 +251,32 @@ a:hover {
 
 #back-button a:visited{
     color: var(--gray);
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);  
+}
+
+#modal-content {
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+#modal-caption {
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
 }

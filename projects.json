@@ -2,103 +2,152 @@
     "projects": [
     {
         "index": 0,
+        "title": "My Art",
+        "hash": "#art",
+        "tags": ["art"],
+        "card-description": "Fine art, sketches, web comics, and more.",
+        "description": "I've been making art for most my life. My favorite mediums have been pencil and paper, digital art, and more recently, acrylic painting and ceramics.<br><br>This is an evolving selection of my favorite pieces. Click on each image for more information.",
+        "images": ["images/clouds.jpg", "images/comic.png", "images/tarot1.png", "images/tarot2.png"],
+        "image_alt": "My art"
+    }, 
+    {
+        "index": 1,
         "title": "Brain AR",
         "hash": "#brain_ar",
         "tags": ["tech"],
         "card-description": "Developed AR app for the Yale School of Medicine's core curriculum.",
-        "description": "Developed AR app for the Yale School of Medicine's core curriculum.",
-        "image": "images/brainar.png",
-        "image_alt": "Brain_AR"
+        "description": "In 2018-19, I worked as a student developer for the <a href='https://medicine.yale.edu/'>Yale School of Medicine</a>, under Professor <a href='https://medicine.yale.edu/profile/michael_schwartz/'>Michael Schwartz</a> and <a href='https://medicine.yale.edu/profile/gary_leydon/'>Gary Leydon</a>. I developed an application for first-year medical students, where a brain could be placed in 3D space and broken into subgroups. It was used in Intro to Neurobiology courses in the School of Medicine curriculum. <br><br>The project was part of <a href='https://blendedreality.yale.edu/'>Blended Reality</a>, a collaboration between Yale and HP. A brief overview of the work can be found <a href='https://blendedreality.yale.edu/2019/08/20/blended-reality-in-the-classroom-the-human-condition/'>here.</a><br><br><img src='https://media.giphy.com/media/yybrqw7bDCbxbQU1He/giphy.gif' style='margin-right:40px; margin-bottom:40px'><img src='https://media.giphy.com/media/9Pi4OfysgwGDGk8vKE/giphy.gif' style='margin-bottom:40px'><img src='https://media.giphy.com/media/5vT8KkGlL3vgxG17rd/giphy.gif'>",
+        "images": ["images/brainar.png"],
+        "image_alt": "Brain AR",
+        "target-link": "https://blendedreality.yale.edu/2019/08/20/blended-reality-in-the-classroom-the-human-condition/"
     }, 
     {
-        "index": 1,
+        "index": 2,
         "title": "AIIM",
         "hash": "#aiim",
         "tags": ["writing", "tech"],
-        "card-description": "Experimental interactive long-form fiction about robots, group chats, and the end of the world",
-        "description": "A short story out in Clarkesworld September 2020. <br> <a> link? </a>",
-        "image": "images/aiim.png",
-        "image_alt": "AIIM screenshot"
+        "card-description": "Experimental interactive long-form fiction about robots, group chats, and the end of the world.",
+        "description": "<a href='http://aiim.online'>AIIM</a> (Artificial Intelligence Instant Messenger) is a project conceived in Spring 2018 and finished at the end of 2019. The best way to describe it is an experimental interactive long form fiction piece, and the only way to really understand it is to jump right in.<br><br>AIIM was truly a labor of love, and I'm still really proud of what it turned into and what it taught me. There's a small <a href='https://tvtropes.org/pmwiki/pmwiki.php/WebOriginal/AIIM'>TV Tropes page</a> for it as well.",
+        "images": ["images/aiim.png"],
+        "image_alt": "AIIM screenshot",
+        "target-link": "http://aiim.online"
     },
     {
-        "index": 2,
+        "index": 3,
         "title": "Ranger VR",
         "hash": "#ranger",
         "tags": ["tech"],
         "card-description": "Implemented VR capabilities into a NASA-internal visual engine. Internship project from summer 2018 at JPL.",
-        "description": "Ranger VR info",
-        "image": "images/jpl.png",
-        "image_alt": "Ranger VR"
+        "description": "I interned at the <a href='https://www.jpl.nasa.gov/' target='_blank'>Jet Propulsion Laboratory</a> during Summer 2018, where I worked on implementing a VR mode into a NASA-internal visual engine called <a href='https://www-robotics.jpl.nasa.gov/tasks/showTask.cfm?FuseAction=ShowTask&TaskID=323&tdaID=700120' target='_blank'>Ranger</a>.<br><br>A demo of my prototype at the end of the summer is available <a href='https://www.youtube.com/watch?v=_pTqgzdXP2s' target='_blank'>here</a>.",
+        "images": ["images/jpl.png"],
+        "image_alt": "Ranger VR",
+        "target-link": "https://www.youtube.com/watch?v=_pTqgzdXP2s"
     },
     {
-        "index": 3,
+        "index": 4,
         "title": "Synesthetic Soundtrack",
         "hash": "#google",
         "tags": ["tech"],
         "card-description": "Defensive publication based on technical explorations I did on a prototyping team at Google, Summer 2019.",
-        "description": "Google daydream info",
-        "image": "images/ss.png",
-        "image_alt": "Synesthetic Soundtrack Image"
+        "description": "In the Summer of 2019, I was an intern on the <a href='https://arvr.google.com/ar/' target='_blank'>Google Daydream</a> Boosts team, prototying AR technology for teams across the company and generating IP. One of the few disclosable items I took away that summer was a <a href='https://en.wikipedia.org/wiki/Defensive_publication' target='_blank'>Defensive Publication</a> of an experiemental AR application for smart wearables which uses computer vision to create personalized sonic landscapes. <br><br>You can find this publication at the <a href='https://www.tdcommons.org/dpubs_series/3277/' target='_blank'>Technical Disclosure Commons</a>.",
+        "images": ["images/ss.png"],
+        "image_alt": "Synesthetic Soundtrack Image",
+        "target-link": "https://www.tdcommons.org/dpubs_series/3277/"
     },
     {
-        "index": 4,
+        "index": 5,
         "title": "Moiré",
         "hash": "#moire",
         "tags": ["art", "tech"],
         "card-description": "Kinetic sculptures that induce dynamic optical illusions. An art installation built for and funded by one of Yale's residential colleges.",
-        "description": "A short story out in Clarkesworld September 2020. <br> <a> link? </a>",
-        "image": "images/moire.jpeg",
-        "image_alt": "Moire image"
-    },
-    {
-        "index": 5,
-        "title": "Certainty",
-        "hash": "#Certainty",
-        "tags": ["writing"],
-        "card-description": "Science fiction short story published in the September 2020 issue of Clarkesworld.",
-        "description": "A short story out in Clarkesworld September 2020. <br> <a> link? </a>",
-        "image": "images/Certainty.jpg",
-        "image_alt": "Certainty cover"
+        "description": "<a href='https://medium.com/@isabelringing1/moire-how-i-built-an-art-instillation-543233dbe1bd' target='_blank'>Moiré</a> is an art installation I built as a personal project in Spring 2019, funded by a Creative and Performing Arts grant from Yale University.<br><br>Inspired by the work of artists such as <a href='http://www.smoothware.com/danny/'>Danny Rozin</a>, I wanted to create a surprising and dynamic work of art while building skills such as laser printing, arduino programming, and more. <br><br>I wrote in-depth about my inspiration, process, and takeaways in this <a href='https://medium.com/@isabelringing1/moire-how-i-built-an-art-instillation-543233dbe1bd' target='_blank'>Medium article</a>, so I highly recommend reading that as well!",
+        "images": ["images/moire.jpeg"],
+        "image_alt": "Moire image",
+        "target-link": "https://medium.com/@isabelringing1/moire-how-i-built-an-art-instillation-543233dbe1bd"
     },
     {
         "index": 6,
+        "title": "Certainty",
+        "hash": "#Certainty",
+        "tags": ["writing"],
+        "card-description": "Science fiction novelette published in the September 2020 issue of Clarkesworld.",
+        "description": "<a href='https://clarkesworldmagazine.com/lee_09_20/' target='_blank'>\"Certainity\"</a> is my first science fiction novelette, published in the September 2020 issue of <a href='https://clarkesworldmagazine.com' target='_blank'>Clarkesworld Magazine</a>. <br><br>It's a story that explores memory and objectivity, and questions what loss and love mean in the wake of a fully known universe. <br><br>You can read it online free, or listen to it as a podcast <a href='https://clarkesworldmagazine.com/audio_09_20c/' target='_blank'>here</a>.",
+        "images": ["images/Certainty.jpg"],
+        "image_alt": "Certainty cover",
+        "target-link": "https://clarkesworldmagazine.com/lee_09_20/"
+    },
+    {
+        "index": 7,
         "title": "Our Bodies Are Art",
         "hash": "#senior-project",
         "tags": ["tech"],
         "card-description": "An interactive examination of evolving female beauty standards through machine learning, computer vision, and classical art.",
-        "description": "description",
-        "image": "images/art.png",
-        "image_alt": "Senior Project cover"
+        "description": "<a href='https://our-bodies-are-art.herokuapp.com/' target='_blank'>Our Bodies Are Art</a> is an interactive application that allows users to find and learn about pieces that match their own body type via computer vision and machine learning. <br><br>I created this project to explore and deconstruct historical female beauty standards through the lens of classical art. It was built using the TensorFlow.js library <a href='https://github.com/tensorflow/tfjs-models/tree/master/body-pix target='_blank'>BodyPix</a>, and launched online for anyone to use.<br><br>It was done as my Senior Project for completion of my computer science degree under <a href='https://graphics.cs.yale.edu/people/julie-dorsey' target='_blank'>Professor Julie Dorsey</a> in the Fall of 2021. The final report can be read <a href='https://drive.google.com/file/d/1YHNzm82DjMAa5YKwzSeq_hCLjXI5ca97t-K54ABf8Zs/view' target='_blank'>here</a>.",
+        "images": ["images/art.png"],
+        "full-images": ["images/obaa.png", "images/sp1.png", "images/sp2.png", "images/sp3.png"],
+        "image_alt": "Senior Project cover",
+        "target-link": "https://our-bodies-are-art.herokuapp.com/"
     },
     {
-        "index": 7,
+        "index": 8,
         "title": "55 Plaque",
         "hash": "#55_Plaque",
         "tags": ["writing"],
-        "card-description": "Science fiction short story published in the March 2021 issue of Clarkesworld.",
-        "description": "A short story out in Clarkesworld March 2021.",
-        "image": "images/55_Plaque.jpg",
-        "image_alt": "55 Plaque cover"
+        "card-description": "Science fiction novelette published in the March 2021 issue of Clarkesworld.",
+        "description": "<a href='https://clarkesworldmagazine.com/lee_03_21/' target='_blank'>\"55 Plaque\"</a> is a novelette published in the March 2021 issue of <a href='https://clarkesworldmagazine.com' target='_blank'>Clarkesworld Magazine</a>, and my second published story. <br><br> It's a story about extraterrestial communication, the limits of our scientific system, how religion fortifies and distorts our most fundamental desires, and how we survive through our children. <br><br>You can read it online free, or listen to it as a podcast <a href='https://clarkesworldmagazine.com/audio_03_21d/' target='_blank'>here</a>.",
+        "images": ["images/55_Plaque.jpg"],
+        "image_alt": "55 Plaque cover",
+        "target-link": "https://clarkesworldmagazine.com/lee_03_21/"
     }, 
     {
-        "index": 8,
+        "index": 9,
         "title": "Turn In Your Pset",
         "hash": "#tiyp",
         "tags": ["writing", "tech", "art"],
         "card-description": "A short (~5 min) interactive fiction piece about graduating during a pandemic.",
-        "description": "Description",
-        "image": "images/tiyp.png",
-        "image_alt": "Turn In Your Pset"
+        "description": "<a href='https://isabellee.itch.io/turn-in-your-pset' target='_blank'>Turn in Your Pset</a> is a small interactive story I wrote in my last semester of college, released in April 2021. I made this piece to explore my own thoughts on growing up, how we remember history, and of course, the state of affairs in early 2021. <br><br>It features writing, art, and programming done by me in <a href='https://godotengine.org/' target='_blank'>Godot</a> and music by my friend, <a href='https://twitter.com/handfloot?lang=en' target='_blank'>Michael Chang</a>.<br><br>You can play it online at <a href='itch.io' target='_blank'>itch.io</a>.",
+        "images": ["images/tiyp.png"],
+        "image_alt": "Turn In Your Pset",
+        "target-link": "http://lunastationquarterly.com/story/your-brothers-touchstone/"
     }, 
     {
-        "index": 9,
+        "index": 10,
         "title": "Your Brother's Touchstone",
         "hash": "#ybt",
         "tags": ["writing"],
-        "card-description": "Science fiction short story published in Luna Station Quarterly, September 2021.",
-        "description": "A short story out in Luna Station Quarterly, September 2021",
-        "image": "images/ybt.jpeg",
-        "image_alt": "Your Brother's Touchstone cover"
+        "card-description": "Science fiction short story published in Luna Station Quarterly Magazine, September 2021.",
+        "description": "<a href = 'http://lunastationquarterly.com/story/your-brothers-touchstone/' target='_blank'>\"Your Brother's Touchstone\"</a> is a short story published in issue #47 of <a href='http://lunastationquarterly.com/' target='_blank'>Luna Station Quarterly</a>, a speculative fiction magazine for women-identified writers. It's a story about two korean-american kids, caught in a mystery that bends space and time. It is my third published story.<br><br>You can read it online free, or buy a digital copy <a href='https://lunastationpress.gumroad.com/l/lsq-047' target='_blank'>here</a>.<br><br>You can also read an <a href='http://lunastationquarterly.com/issue-047-author-interview-isabel-lee-and-your-brothers-touchstone/' target='_blank'>author interview with me</a>!",
+        "images": ["images/ybt.jpeg"],
+        "image_alt": "Your Brother's Touchstone cover",
+        "target-link": "http://lunastationquarterly.com/story/your-brothers-touchstone/"
+    }
+    ],
+
+    "about": {
+        "index": -1,
+        "title": "About",
+        "hash": "#about",
+        "description": "Hi! My name is Isabel Lee and I am a creative technologist currently based out of San Francisco, CA.<br><br>Companies I've worked/interned at include NASA and Google, and I am currently a game engineer for <a href='https://www.doubleloopgames.com/'>Double Loop Games</a>. I'm also a recent grad of Yale University, where I studied Computer Science.<br><br>My free time is spent watching video essays on youtube, visiting museums, and watching korean thriller movies.<br><br>You can contact me via <a href = 'mailto: isabelringing1@gmail.com'>email</a>, or check out my <a href='https://drive.google.com/file/d/1LMMG6wkSL7sFzevMYxE7FPuaBgYVlvn7pRfpuAolwaM/view'>resume</a>.",
+        "images": ["images/me.jpg"],
+        "image_alt": "A picture of me"
+    },
+
+    "art_captions": [
+    {
+        "link": "clouds.jpg",
+        "title": "Clouds, 2020. Acrylic on Canvas"
+    },
+    {
+        "link": "comic.png",
+        "title": "A Comic About Beauty, 2020. Digital Painting"
+    },
+    {
+        "link": "tarot1.png",
+        "title": "해님 The Sun (Tarot Card #1), 2019. Digital Painting"
+    },
+    {
+        "link": "tarot2.png",
+        "title": "달님 The Moon (Tarot Card #2), 2019. Digital Painting"
     }
     ]
 }

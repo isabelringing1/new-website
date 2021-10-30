@@ -8,6 +8,20 @@
 
 <div id="description"> {{{description}}} </div>
 
-<img src={{image}} alt={{image_alt}} onload="fadeIn(this)" id="image">
+<a class="project-image-link" id="project-image" href={{target-link}}>
+{{#full-images}}
+<img src={{.}} alt={{image_alt}} onload="fadeIn(this)" class="image">
+{{/full-images}}
+{{^full-images}}
+{{#images}}
+<img src={{.}} alt={{image_alt}} onload="fadeIn(this)" class="image">
+{{/images}}
+{{/full-images}}
+</a>
 
+</div>
+
+<div id="modal">
+  <p id="modal-caption"></p>
+  <img id="modal-content">
 </div>
