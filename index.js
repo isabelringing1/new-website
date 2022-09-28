@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/index.html'));
 });
 
+app.get('/littlelifeupdate', (req, res) => {
+    res.sendFile(path.join(__dirname, '/llu/index.html'));
+});
+
 // Start the server
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
