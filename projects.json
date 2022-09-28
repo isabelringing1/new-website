@@ -105,7 +105,7 @@
         "hash": "#tiyp",
         "tags": ["writing", "tech", "art"],
         "card-description": "A short (~5 min) interactive fiction piece about graduating during a pandemic.",
-        "description": "<a href='https://isabellee.itch.io/turn-in-your-pset' target='_blank'>Turn in Your Pset</a> is a small interactive story I wrote in my last semester of college, released in April 2021. I made this piece to explore my own thoughts on growing up, how we remember history, and of course, the state of affairs in early 2021. <br><br>It features writing, art, and programming done by me in <a href='https://godotengine.org/' target='_blank'>Godot</a> and music by my friend, <a href='https://twitter.com/handfloot?lang=en' target='_blank'>Michael Chang</a>.<br><br>You can play it online at <a href='itch.io' target='_blank'>itch.io</a>.",
+        "description": "<a href='https://isabellee.itch.io/turn-in-your-pset' target='_blank'>Turn in Your Pset</a> is a small interactive story I wrote in my last semester of college, released in April 2021. I made this piece to explore my own thoughts on growing up, how we remember history, and of course, the state of affairs in early 2021. <br><br>It features writing, art, and programming done by me in <a href='https://godotengine.org/' target='_blank'>Godot</a> and music by my friend, <a href='https://twitter.com/handfloot?lang=en' target='_blank'>Michael Chang</a>.<br><br>You can play it online at <a href='https://isabellee.itch.io/turn-in-your-pset' target='_blank'>itch.io</a>.",
         "images": ["images/tiyp.png"],
         "image_alt": "Turn In Your Pset",
         "target-link": "http://lunastationquarterly.com/story/your-brothers-touchstone/"
