@@ -127,7 +127,7 @@
         "index": -1,
         "title": "About",
         "hash": "#about",
-        "description": "Hi! My name is Isabel Lee and I am a creative technologist currently based out of San Francisco, CA.<br><br>Companies I've worked/interned at include NASA and Google, and I am currently a game engineer for <a href='https://www.doubleloopgames.com/'>Double Loop Games</a>. I'm also a recent grad of Yale University, where I studied Computer Science.<br><br>My free time is spent watching video essays on youtube, visiting museums, and watching korean thriller movies.<br><br>You can contact me via <a href = 'mailto: isabelringing1@gmail.com'>email</a>, or check out my <a href='https://drive.google.com/file/d/1LMMG6wkSL7sFzevMYxE7FPuaBgYVlvn7pRfpuAolwaM/view'>resume</a>.",
+        "description": "Hi! My name is Isabel Lee and I am a grad student at <a href='https://tisch.nyu.edu/itp'>ITP</a> in Brooklyn.<br><br>Companies I've worked/interned at include NASA and Google, and I am also a game engineer for <a href='https://www.doubleloopgames.com/'>Double Loop Games</a>. I'm also a recent grad of Yale University, where I studied Computer Science.<br><br>My free time is spent watching video essays on youtube, visiting museums, and watching korean thriller movies.<br><br>You can contact me via <a href = 'mailto: isabelringing1@gmail.com'>email</a>, or check out my <a href='https://drive.google.com/file/d/1LMMG6wkSL7sFzevMYxE7FPuaBgYVlvn7pRfpuAolwaM/view'>resume</a>.",
         "images": ["images/me.jpg"],
         "image_alt": "A picture of me"
     },
